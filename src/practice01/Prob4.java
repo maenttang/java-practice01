@@ -12,10 +12,11 @@ public class Prob4 {
 		
 		/* 코드를 완성합니다. */
 		int size = s.length();
+		//System.out.println(size);
 		for(int  i=0; i<size; i++)
 		{
 			//System.out.println(s);
-			for(int j = 0; j< 2; j++)
+			for(int j = 0; j < i+1; j++)
 			{
 				System.out.print(s.charAt(j));
 			}
@@ -24,7 +25,7 @@ public class Prob4 {
 		
 		
 		
-		System.out.println(s);
+		//System.out.println(s);
 		
 		scanner.close();
 	}
